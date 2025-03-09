@@ -104,7 +104,7 @@ Determining a user's favorite track requires a balanced approach that accounts f
 
 To determine the user's favorite track, three key streaming metrics were considered:
 
-###### __1. Total Streaming (Listening) Duration (50% Weight)__
+##### __1. Total Streaming (Listening) Duration (50% Weight)__
 
 __What It Shows:__ Measures the total duration a user has spent listening to a particular track.
 
@@ -128,7 +128,35 @@ __Why It’s Important:__ Tracks with a high number of qualified streams indicat
 
 __Weight Justification:__ While this metric is useful, it does not directly indicate preference as much as the other two. Some tracks may be played frequently but skipped early, so it was given the lowest weight of 10%.
 
+### __Key Takeaway & Insight__ 
 
+##### __Total Stream Count:__
+
+Qualified Streams: 94K  
+Total Streams: 150K  
+**Insight:**  Only about 63% of total streams are considered "qualified," meaning a significant portion of streams were either skipped or did not meet the criteria for qualification.
+Streaming Duration (Minutes):
+
+Qualified Streams Duration: 317K minutes
+Total Streams Duration: 320K minutes  
+`Insight:` Despite the lower count of qualified streams duration, their duration is nearly the same as total streams duration, indicating that non-qualified streams are much shorter.
+Shuffled & Skipped Streams:
+
+Qualified Streams: 67.62% of the Qualified Stream were shuffled, and 1.94% were skipped.
+Total Streams: 74.46% of the Total Stream were shuffled, and 5.25% were skipped.  
+`__Insight:__` Qualified streams have fewer skips than total streams, suggesting that users are more engaged with these tracks.
+
+__Platform Breakdown:__
+
+Android is the dominant platform across all Platform, with over 287K minutes in Qualified streams and 291K minutes in Total streams.
+Other Platforms (iOS, macOS, Windows, web player) contribute relatively little to overall streaming duration.
+`Insight:` Android users account for the vast majority of streaming duration (listening time), making it a key focus platform.
+
+
+__Final Insights:__  
+Qualified streams tend to have longer play durations and lower skip rates, suggesting stronger user engagement.  
+Shuffled play is high, meaning users often rely on algorithmic or playlist-driven listening.  
+Android is the dominant platform for streaming, making it a crucial area for further analysis.
 
 ## __Conclusion__
 The analysis reveals a growing trend in Spotify streaming, with Android being the most popular platform. The Beatles and "trackdone" stand out as the most streamed artist and track, respectively. The high shuffle rate indicates a preference for varied listening experiences, while the low skip rate suggests overall user satisfaction.
