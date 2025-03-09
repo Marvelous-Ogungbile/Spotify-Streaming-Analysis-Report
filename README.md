@@ -134,7 +134,7 @@ __Weight Justification:__ While this metric is useful, it does not directly indi
 
 Qualified Streams: 94K  
 Total Streams: 150K  
-**Insight:**  Only about 63% of total streams are considered "qualified," meaning a significant portion of streams were either skipped or did not meet the criteria for qualification.
+`Insight:`  Only about 63% of total streams are considered "qualified," meaning a significant portion of streams were either skipped or did not meet the criteria for qualification.
 Streaming Duration (Minutes):
 
 Qualified Streams Duration: 317K minutes
