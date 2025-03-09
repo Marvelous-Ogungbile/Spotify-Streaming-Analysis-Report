@@ -130,6 +130,6 @@ __Weight Justification:__ While this metric is useful, it does not directly indi
 
 
 
-Conclusion
+## __Conclusion__
 The analysis reveals a growing trend in Spotify streaming, with Android being the most popular platform. The Beatles and "trackdone" stand out as the most streamed artist and track, respectively. The high shuffle rate indicates a preference for varied listening experiences, while the low skip rate suggests overall user satisfaction.
 
